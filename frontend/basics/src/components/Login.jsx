@@ -33,14 +33,14 @@ const Login = () => {
           name="email"
           placeholder="email"
           onChange={handleChange}
-          className="w-full px-4 py-2 mb-4 border rounded focus:outline-none"
+          className="w-full px-4 py-2 mb-4 border rounded focus:outline-none text-black"
         />
         <input
           type="password"
           name="password"
           placeholder="Password"
           onChange={handleChange}
-          className="w-full px-4 py-2 mb-4 border rounded focus:outline-none"
+          className="w-full px-4 py-2 mb-4 border rounded focus:outline-none text-black"
         />
         <button
           type="submit"

@@ -53,12 +53,12 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold text-gray-800 mb-6">Upload to IPFS</h1>
-      <form className="bg-white p-6 rounded-lg shadow-md w-80" onSubmit={handleSubmit}>
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center bg-custom-image h-screen">
+      <h1 className="text-3xl font-bold text-orange-300 mb-6">Upload to IPFS</h1>
+      <form className="bg-black p-6 rounded-lg shadow-md w-80" onSubmit={handleSubmit}>
         {/* New input fields for student address, name, and institution */}
         <div className="mb-4">
-          <label htmlFor="studentAddress" className="block text-sm font-medium text-gray-700">Student Address</label>
+          <label htmlFor="studentAddress" className="block text-sm font-medium text-orange-300">Student Address</label>
           <input
             id="studentAddress"
             type="text"
@@ -70,7 +70,7 @@ const Home = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="studentName" className="block text-sm font-medium text-gray-700">Student Name</label>
+          <label htmlFor="studentName" className="block text-sm font-medium text-orange-300">Student Name</label>
           <input
             id="studentName"
             type="text"
@@ -82,7 +82,7 @@ const Home = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="institutionName" className="block text-sm font-medium text-gray-700">Institution Name</label>
+          <label htmlFor="institutionName" className="block text-sm font-medium text-orange-300">Institution Name</label>
           <input
             id="institutionName"
             type="text"

@@ -1,0 +1,120 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+    background: linear-gradient(135deg, #1e1e2e, #121212);
+    overflow-x: hidden;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #f97316;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #f97316;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    /* background: url("C:\Users\BIT\Desktop\landing page\prometheus\public\b1.jpg") no-repeat center center / cover; */
+    color: #ffffff;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #f97316;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffffff;
+    color: #f97316;
+  }
+  
+  /* Sections */
+  .about, .how-it-works, .cta {
+    padding: 60px 40px;
+    /* text-align: center; */
+  }
+  
+  .about h2, .how-it-works h2, .cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f97316;
+  }
+  
+  .about p, .how-it-works ol, .cta p {
+    font-size: 1.2rem;
+  }
+  
+  .image-placeholder {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Footer */
+  .footer {
+    background: #121212;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
